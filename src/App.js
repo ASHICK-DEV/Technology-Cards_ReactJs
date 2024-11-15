@@ -40,7 +40,9 @@ const App = () => (
   <div className="list-container">
     <div className="main-container">
       <h1 className="head">Learn 4.0 Technologies</h1>
-      <p className="paragraph">Get trained by alumni IITs and top companies like Amazon, Microsoft, Intel, Nvidia, Qualcomm, etc. Learn directly from professionals involved in Product development.
+      <p className="paragraph">
+          Get trained by alumni of IITs and top companies like Amazon, Microsoft, Intel, Nvidia, Qualcomm, etc. 
+          Learn directly from professionals involved in Product development.
       </p>
       <ul className="technology-list">
         {cardsList.map(each => (
